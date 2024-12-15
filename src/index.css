@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --color-red:red;
+    
+}
+
+#root{
+    display:flex;
+    justify-content:center;
+    
+    width:100%;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    background-color:beige;
+    font-family: monospace;
+    font-size: clamp(14px,1.25vw,50px);
+    width:100vw
+    
+}
+
+button{
+    display:flex;
+    justify-content:center;
+    color:red;
+    width:clamp(40px,15vw,200px);
+    height:clamp(18px,5vh,50px)
+}
+
+p{
+    font-family:"Playfair Display";
+}
+
+.side-by-side{
+    display:flex;
+    justify-content:center;
+    width:80%;
+    flex-direction:row;
+    flex-flow:row wrap;
+    flex-wrap:wrap;
+}
+
+.spinner{
+    
+    width:clamp(200px,50vh,700px);
+    height:(300px,50vh,600px);
+}
